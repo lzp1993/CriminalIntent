@@ -37,5 +37,8 @@ public void setmTitle(String mTitle) {
 public UUID getmId() {
 	return mId;
 }
-
+@Override
+	public String toString() {
+	return mTitle;
+	}
 }
